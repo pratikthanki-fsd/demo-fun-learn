@@ -1,0 +1,69 @@
+/*
+    This is the main CSS file for our website.
+    It includes styles for:
+    - Body: General font and background settings.
+    - Navigation bar (<nav>): Styling for links and hover effects.
+    - Sections (<section>): Padding for readability.
+    - Articles (<article>): Spacing between articles.
+    - Footer: Fixed position and matching style with the navigation bar.
+    - Table: Borders, padding, alternating row colors, and hover effects.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+article {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+table th {
+    background-color: #4682b4;
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #ddd;
+}
