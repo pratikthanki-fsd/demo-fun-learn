@@ -46,24 +46,35 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Removed inline styles from the table in the HTML file */
+/* Added styles for the table in the CSS file */
+
+/* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 18px;
     text-align: left;
 }
+
+/* Table border and padding */
 table th, table td {
     border: 1px solid #ddd;
     padding: 12px;
 }
+
+/* Table header background */
 table th {
     background-color: #4682b4;
     color: white;
 }
+
+/* Alternating row colors */
 table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+/* Hover effect */
 table tr:hover {
     background-color: #ddd;
 }
